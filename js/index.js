@@ -73,7 +73,7 @@ function loadCardForm() {
           identificationType
         } = cardForm.getCardFormData()
 
-        fetch('https://f208f73b8336.ngrok.io/order', {
+        fetch('http://a7bccce0cc96.ngrok.io/order', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
